@@ -39,6 +39,17 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    //update properties from properties.json
+    $.getJSON('content.json', function(data) {
+        console.log('Json data:', data);
+        $('meta[name=description]').attr('content', data.meta.description);
+        $('meta[name=keywords]').attr('content', data.meta.keywords);
+        $('meta[name=author]').attr('content', data.meta.author);
+        $('#about_company_1').html(data.about_company.p1);
+        $('#about_company_2').html(data.about_company.p2);
+        $('#about_propreitor_anjan_sen').html(data.about_propreitor_anjan_sen);
+    });
 });
 
 // Highlight the top nav as scrolling occurs
