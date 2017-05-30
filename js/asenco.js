@@ -39,6 +39,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    var services = ["A", "B", "C"]
 });
 
 // Highlight the top nav as scrolling occurs
