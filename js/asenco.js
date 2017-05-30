@@ -46,8 +46,10 @@ $(function() {
         $('meta[name=description]').attr('content', data.meta.description);
         $('meta[name=keywords]').attr('content', data.meta.keywords);
         $('meta[name=author]').attr('content', data.meta.author);
-        $('#about_company_1').html(data.about_company.p1);
-        $('#about_company_2').html(data.about_company.p2);
+        $('#about_company_about').html(data.about_company.about);
+        data.about_company.services.forEach(function(service){
+            $('#about_company_services').append('<br><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;'+service);
+        });
         $('#about_propreitor_anjan_sen').html(data.about_propreitor_anjan_sen);
     });
 });
