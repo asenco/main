@@ -1,4 +1,4 @@
-html{
+html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,7 +61,11 @@ p.large {
     fontize: 16px
 }
 
-a, a:hover, a:focus, a:active, a.active {
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
     outline: 0
 }
 
@@ -69,11 +73,19 @@ a {
     color: #344f7c
 }
 
-a:hover, a:focus, a:active, a.active {
+a:hover,
+a:focus,
+a:active,
+a.active {
     color: red
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700
@@ -122,24 +134,37 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 40px
 }
 
-.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open
-.dropdown-toggle.btn-xl {
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     color: #fff;
     background-color: #344f7c;
     border-color: #ffffff;
 }
 
-.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
     background-image: none
 }
 
-.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled]
-.btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled]
-.btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled]
-.btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled]
-.btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled]
-.active, fieldset[disabled]
-.btn-xl.active {
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled] .active,
+fieldset[disabled] .btn-xl.active {
     background-color: #95bfef;
     border-color: #95bfef
 }
@@ -159,7 +184,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
     color: white
 }
 
@@ -176,7 +204,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: #95bfef
 }
 
@@ -188,8 +217,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff
 }
 
-.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
-    color:white;
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: white;
     outline: 0
 }
 
@@ -201,7 +231,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     color: white;
     border-radius: 0;
     font-weight: 900;
@@ -211,30 +242,27 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
     .navbar-default {
-        background-color: #344f7c;;
+        background-color: #344f7c;
+        ;
         padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
         border: 0
     }
-
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
     }
-
     .navbar-default .navbar-nav > .active > a {
         border-radius: 3px
     }
-
     .navbar-default.navbar-shrink {
         background-color: #344f7c;
         padding: 10px 0
     }
-
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em
     }
@@ -277,14 +305,13 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 @media(min-width:768px) {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -293,13 +320,11 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
@@ -313,8 +338,7 @@ header .intro-text {
     padding-bottom: 20px
 }
 
-header
-.intro-lead-in {
+header .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
@@ -336,16 +360,13 @@ header .intro-heading {
         padding-top: 300px;
         padding-bottom: 200px
     }
-
-    header
-    .intro-text .intro-lead-in {
+    header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
     }
-
     header.intro-text .intro-heading {
         font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
@@ -354,6 +375,7 @@ header .intro-heading {
         line-height: 75px;
         margin-bottom: 50px
     }
+    
 }
 
 section {
@@ -388,21 +410,16 @@ section h3.section-subheading {
     text-transform: none
 }
 
-section#contact {
-}
+section#contact {}
 
-section#contact
-.section-heading {
-   
-}
+section#contact .section-heading {}
 
-section#contact
-.form-group {
+section#contact .form-group {
     margin-bottom: 25px
 }
 
-section#contact
-.form-group input, section#contact .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px
 }
 
@@ -419,28 +436,28 @@ section#contact .form-control:focus {
     box-shadow: none
 }
 
-section#contact ::-webkit-input-placeholder {
+section#contact::-webkit-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact :-moz-placeholder {
+section#contact:-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact ::-moz-placeholder {
+section#contact::-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     color: #bbb
 }
 
-section#contact :-ms-input-placeholder {
+section#contact:-ms-input-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -490,11 +507,16 @@ ul.social-buttons li a {
     transition: all .3s
 }
 
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
     background-color: #95bfef
 }
 
-.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
     outline: 0
 }
 
@@ -516,68 +538,67 @@ img::-moz-selection {
     background: 0 0
 }
 
-#logoimage-anchor{
+#logoimage-anchor {
     padding-top: 8px;
     margin: 0px;
 }
-#brand-anchor{
+
+#brand-anchor {
     text-decoration: none;
     padding-top: 10px;
 }
 
-.glyphicon{
+.glyphicon {
     color: white;
 }
-#top-nav{
+
+#top-nav {
     padding-top: 5px;
     padding-bottom: 0px;
-    background-color:#344f7c ;
+    background-color: #344f7c;
 }
 
-#page-top{
+#page-top {
     background-image: url('/img/about/photo13.jpg');
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     min-height: 650px;
 }
 
-.navbar-nav>li>a{
+.navbar-nav>li>a {
     font-weight: 100;
     padding-bottom: 0px;
 }
 
-.navbar-nav>li>a:hover{
+.navbar-nav>li>a:hover {
     text-decoration: underline;
 }
 
-#first-page-info{
+#first-page-info {
     color: white;
     position: absolute;
-    bottom:0px;
+    bottom: 0px;
     height: 100px;
-    width:100%;
-    background-color:#344f7c;
+    width: 100%;
+    background-color: #344f7c;
     opacity: 0.8
 }
 
-#first-page-info{
+#first-page-info {}
 
-}
-
-#welcom-span{
+#welcom-span {
     opacity: 0.8;
 }
 
-#brand-text{
+#brand-text {
     padding: 10px;
 }
 
-#welcome-div{
-    background-color:#344f7c;
+#welcome-div {
+    background-color: #344f7c;
     opacity: 0.9;
     color: white;
     padding: 10px;
-
 }
 
 .layer {
@@ -589,3 +610,44 @@ img::-moz-selection {
     height: 100%;
     opacity: 0.7;
 }
+
+#aboutUs {
+    padding: 0px !important;
+    height: 100% !important;
+}
+
+#myCarousel {
+    height: 100%;
+    /*slider width*/
+    overflow: hidden;
+}
+
+.item > img {
+    height: 100%;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    /* For IE8 and earlier */
+}
+
+.item {
+    height: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.carousel-caption{
+    bottom: 100px;
+    background: rgba(255, 255, 255, 0.75)
+}
+
+.carousel-inner {
+	height: 100%;
+}
+.carousel-caption>h3,p{
+    color: black;
+}
+
+.carousel-caption>p{
+    font-size: 15px!important;
+}
+
