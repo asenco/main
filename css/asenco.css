@@ -635,9 +635,17 @@ img::-moz-selection {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.carousel-caption-container {
+	position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.78)
+}
 .carousel-caption{
     bottom: 100px;
-    background: rgba(255, 255, 255, 0.75)
 }
 
 .carousel-inner {
